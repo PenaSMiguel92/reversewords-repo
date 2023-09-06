@@ -4,5 +4,7 @@ public class Main {
         System.out.println(sol.reverseWords("the sky is blue"));
         System.out.println(sol.reverseWords("  hello world  "));
         System.out.println(sol.reverseWords("a good   example"));
+        String retardedString = "a good   example";
+        System.out.println(retardedString.replace("\s+", "_"));
     }
 }
